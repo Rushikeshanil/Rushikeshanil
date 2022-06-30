@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Simpleaddition {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// classname objectname= new classname(Arguments);
+				Scanner Rushikesh = new Scanner(System.in);
+				//objectname.methodename();
+				int num1, num2, res;
+				System.out.println("Enter the number");
+				num1=Rushikesh.nextInt();
+				System.out.println("Enter the num2");
+				
+			
+				num2=Rushikesh.nextInt();
+				res=num1+num2;
+				System.out.println("sum of two number is:"+res);
+				Rushikesh.close();
+
+	}
+
+}
