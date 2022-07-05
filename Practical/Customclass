@@ -1,0 +1,39 @@
+class Employee{
+	private int id;
+	private String name;
+	public void setId(int i)
+	{
+		id = i;
+		
+	}
+	public void setName(String m)
+	{
+		name = m;
+	}
+	public int getId()
+	{
+		return id;
+	}
+	public String getName()
+	{
+		return name;
+	}
+	
+}
+
+public class Employee233 {
+
+	public static void main(String[] args) {
+		
+		Employee Rushikesh = new Employee();
+		Employee Akash = new Employee();
+		
+		Rushikesh.setName("Rushikesh kadam");
+		Akash.setId(12);
+		Akash.setName("Akash aran");
+		System.out.println(Rushikesh.getId());
+		System.out.println(Rushikesh.getName());
+		System.out.println(Akash.getId());
+	    System.out.println(Akash.getName());
+}
+}
