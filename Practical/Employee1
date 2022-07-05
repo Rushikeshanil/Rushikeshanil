@@ -1,0 +1,25 @@
+class Employee1{
+	int id;
+        String name;
+	
+}
+public class Customclass {
+
+	public static void main(String[] args) {
+		// classname objectname = new classname();
+		Employee1 Rushikesh = new Employee1();
+		Employee1 Akash = new Employee1();
+		Rushikesh.id=12;
+		Rushikesh.name = "Rushikesh Kadam";
+		
+		Akash.id=15;
+		Akash.name = "Akash Aran";
+		
+		System.out.println(Rushikesh.id);
+		System.out.println(Rushikesh.name);
+		System.out.println(Akash.id);
+		System.out.println(Akash.name);
+		
+     }
+
+}
